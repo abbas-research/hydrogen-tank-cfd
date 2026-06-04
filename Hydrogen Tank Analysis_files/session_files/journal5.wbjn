@@ -1,0 +1,10 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS 3")
+ExportSystems(
+    Systems=[system1],
+    FilePath=r"C:\Users\user\OneDrive\Desktop\Hydrogen Tank CFD\Hydrogen Tank CFD.wbpz",
+    IncludeUserFiles=False,
+    IncludeResultFiles=False,
+    IncludeExternalFiles=False)
